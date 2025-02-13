@@ -1,4 +1,4 @@
-# Ticketr - Real-time Event Ticketing Platform
+# Ticket - Real-time Event Ticketing Platform
 
 A modern, real-time event ticketing platform built with Next.js 14, Convex, Clerk, and Stripe Connect. Features a sophisticated queue system, real-time updates, and secure payment processing.
 
@@ -74,7 +74,7 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 
 ```bash
 # Clone the repository
-git clone https://github.com/sonnysangha/ticket-marketplace-saas-nextjs15-convex-clerk-stripe-connect
+git clone https://github.com/Dorian-Steve/Event-Tickets.git
 
 # Install dependencies
 npm install
