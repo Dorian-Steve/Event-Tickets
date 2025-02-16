@@ -9,5 +9,5 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function useStorageUrl(storageId: Id<"_storage"> | undefined) {
-  return storageId ? useQuery(api.storage.getUrl, { storageId }) : null;
+  return useQuery(api.storage.getUrl, storageId ? { storageId } : "skip");
 }

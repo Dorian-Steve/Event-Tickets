@@ -8,6 +8,7 @@ import { ConvexClientProvider } from "@/components/convixClientProvider";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
 import SyncUserWithConvex from "@/components/shared/SyncUserWithConvex";
+import { Toaster } from "@/components/ui/toaster";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -29,6 +30,7 @@ export default function RootLayout({
             <Navbar />
             <SyncUserWithConvex />
             {children}
+            <Toaster />
             <Footer />
           </ClerkProvider>
         </ConvexClientProvider>
