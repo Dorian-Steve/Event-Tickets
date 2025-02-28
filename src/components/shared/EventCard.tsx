@@ -67,7 +67,7 @@ function EventCard({ eventId }: {eventId: Id<"events"> }){
     }
 
     return (
-      <div className="flex intems-center justify-between p-3 bg-blue-50 rounded-lg border border-blue-100">
+      <div className="flex items-center justify-between p-3 bg-blue-50 rounded-lg border border-blue-100">
         <div className="flex items-center">
           <LoaderCircle className='w-4 h-4 animate-spin text-blue-500' />
           <span className="text-blue-700">Queue Position</span>
